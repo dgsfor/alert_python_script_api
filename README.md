@@ -1,0 +1,2 @@
+# alert_python_script_api
+操作influxdb进行监控告警，使用告警平台api脚本
