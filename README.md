@@ -3,7 +3,7 @@
 
 - 脚本放置目录：
 
-          /data/influxdb_python
+      /data/influxdb_python
        
        
 - 目录结构如下：
@@ -18,9 +18,8 @@
     
       /data/influxdb_python/output/         临时输出异常主机信息目录
       
-  
 - 定时任务配置：(默认两分钟执行一次)
 
-          */2 * * * * python /data/influxdb_python/cpu_alert.py
+      */2 * * * * python /data/influxdb_python/cpu_alert.py
     
-          */2 * * * * python /data/influxdb_python/mem_alert.py
+      */2 * * * * python /data/influxdb_python/mem_alert.py
