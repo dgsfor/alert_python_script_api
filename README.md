@@ -13,10 +13,10 @@
       /data/influxdb_python/cpu_alert.py   cpu告警脚本
     
       /data/influxdb_python/mem_alert.py   mem告警脚本
-    
-      /data/influxdb_python/log/           定时任务执行日志
-    
-      /data/influxdb_python/output/         临时输出异常主机信息目录
+      
+      /data/influxdb_python/log/           定时任务执行日志
+      
+      /data/influxdb_python/output/         临时输出异常主机信息目录
       
 - 定时任务配置：(默认两分钟执行一次)
 
